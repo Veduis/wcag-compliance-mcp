@@ -11,10 +11,12 @@
   "websiteUrl": "https://veduis.com/products/vcompliance-scanner/",
   "packages": [
     {
-      "registryType": "npm",
-      "identifier": "wcag-compliance-mcp",
-      "version": "1.0.0",
-      "transport": { "type": "stdio" }
+      "registryType": "mcpb",
+      "identifier": "https://github.com/Veduis/wcag-compliance-mcp/releases/download/v1.0.0/wcag-compliance-mcp.mcpb",
+      "fileSha256": "aa5f46d29b1815846065e89b37a77fdac2f3318184920bf94fbca2de012dd982",
+      "transport": {
+        "type": "stdio"
+      }
     }
   ]
 }
