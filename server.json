@@ -1,0 +1,20 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.veduis/wcag-compliance-mcp",
+  "title": "WCAG 2.2 Compliance",
+  "description": "Audit HTML against 18 WCAG 2.2 checks with corrected markup, look up criteria with ADA Title II scope, get fix examples verified against axe-core 4.14.0, and check U.S. accessibility deadlines.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/Veduis/wcag-compliance-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://veduis.com/products/vcompliance-scanner/",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "wcag-compliance-mcp",
+      "version": "1.0.0",
+      "transport": { "type": "stdio" }
+    }
+  ]
+}

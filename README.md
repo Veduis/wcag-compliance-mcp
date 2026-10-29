@@ -51,8 +51,10 @@ Pass `as_of` to compute the answer for any date, which makes the tool useful for
 ## Install
 
 ```bash
-npx wcag-compliance-mcp
+npx -y github:Veduis/wcag-compliance-mcp
 ```
+
+The npm package `wcag-compliance-mcp` lands with the next publish. Until then the GitHub spec above installs the same code and dependencies.
 
 ### Claude Desktop
 
@@ -63,7 +65,7 @@ npx wcag-compliance-mcp
   "mcpServers": {
     "wcag-compliance": {
       "command": "npx",
-      "args": ["-y", "wcag-compliance-mcp"]
+      "args": ["-y", "github:Veduis/wcag-compliance-mcp"]
     }
   }
 }
@@ -78,7 +80,7 @@ npx wcag-compliance-mcp
   "mcpServers": {
     "wcag-compliance": {
       "command": "npx",
-      "args": ["-y", "wcag-compliance-mcp"]
+      "args": ["-y", "github:Veduis/wcag-compliance-mcp"]
     }
   }
 }
@@ -93,7 +95,7 @@ npx wcag-compliance-mcp
   "servers": {
     "wcag-compliance": {
       "command": "npx",
-      "args": ["-y", "wcag-compliance-mcp"]
+      "args": ["-y", "github:Veduis/wcag-compliance-mcp"]
     }
   }
 }
