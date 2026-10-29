@@ -6,6 +6,8 @@ Built from a benchmark that was verified in headless Chromium: 64 fail/pass HTML
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23781867.svg)](https://doi.org/10.5281/zenodo.23781867)
 
+Listed in the official MCP registry as `io.github.Veduis/wcag-compliance-mcp`, on the [97k star MCP directory](https://github.com/punkpeye/awesome-mcp-servers/pull/18046), and in the [accessibility tools list](https://github.com/brunopulis/awesome-a11y/pull/363).
+
 ## Tools
 
 | Tool | What it answers |
@@ -54,7 +56,15 @@ Pass `as_of` to compute the answer for any date, which makes the tool useful for
 npx -y github:Veduis/wcag-compliance-mcp
 ```
 
-The npm package `wcag-compliance-mcp` lands with the next publish. Until then the GitHub spec above installs the same code and dependencies.
+Three other routes:
+
+| Route | Command |
+| --- | --- |
+| MCPB bundle (Claude Desktop, one click) | [wcag-compliance-mcp.mcpb](https://github.com/Veduis/wcag-compliance-mcp/releases/download/v1.0.0/wcag-compliance-mcp.mcpb) |
+| Official registry | `io.github.Veduis/wcag-compliance-mcp` |
+| Docker | `docker build -t wcag-compliance-mcp . && docker run -i --rm wcag-compliance-mcp` |
+
+The npm package `wcag-compliance-mcp` lands with the next publish. Until then the GitHub spec installs the same code and dependencies.
 
 ### Claude Desktop
 
