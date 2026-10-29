@@ -1,6 +1,6 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.veduis/wcag-compliance-mcp",
+  "name": "io.github.Veduis/wcag-compliance-mcp",
   "title": "WCAG 2.2 Compliance",
   "description": "WCAG 2.2 audits with corrected markup, verified fix examples, and U.S. ADA deadlines.",
   "version": "1.0.0",
