@@ -1,0 +1,52 @@
+{
+  "name": "wcag-compliance-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for WCAG 2.2 audits, verified remediation examples, and U.S. ADA Title II / Section 504 compliance deadlines. Backed by 64 browser-verified fail/pass pairs tested against axe-core 4.14.0.",
+  "type": "module",
+  "main": "src/index.mjs",
+  "bin": {
+    "wcag-compliance-mcp": "src/index.mjs"
+  },
+  "files": [
+    "src",
+    "data",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node src/index.mjs",
+    "test": "node test/smoke.mjs"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "wcag",
+    "wcag-2.2",
+    "accessibility",
+    "a11y",
+    "ada",
+    "section-508",
+    "section-504",
+    "axe-core",
+    "compliance",
+    "audit"
+  ],
+  "author": "Veduis LLC (https://veduis.com/)",
+  "license": "MIT",
+  "homepage": "https://veduis.com/products/vcompliance-scanner/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Veduis/wcag-compliance-mcp.git"
+  },
+  "bugs": {
+    "url": "https://veduis.com/contact/"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "node-html-parser": "^9.0.5",
+    "zod": "^4.6.7"
+  }
+}

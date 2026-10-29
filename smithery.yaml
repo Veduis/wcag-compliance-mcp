@@ -1,0 +1,13 @@
+# Smithery configuration for wcag-compliance-mcp
+# https://smithery.ai/docs/build/project-config
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    properties: {}
+    required: []
+  commandFunction: |-
+    (config) => ({
+      command: 'node',
+      args: ['src/index.mjs']
+    })
