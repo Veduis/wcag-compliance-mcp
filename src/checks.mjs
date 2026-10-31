@@ -425,6 +425,6 @@ export function auditHtml(html) {
 export const AUTOMATED_COVERAGE = {
   criteria_total: 87,
   criteria_with_static_check: 12,
-  criteria_with_axe_rule: 21,
-  note: '66 of 87 WCAG 2.2 criteria have no automated rule at all and need manual review, assistive technology testing, or process evidence. A clean static audit is not a conformance claim.',
+  criteria_with_axe_rule: 29,
+  note: '58 of 87 WCAG 2.2 criteria have no automated rule at all and need manual review, assistive technology testing, or process evidence. At Level AA, the level the DOJ rule and EN 301 549 adopt, only 7 of 24 criteria have a rule. A clean static audit is not a conformance claim.',
 };

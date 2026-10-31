@@ -157,7 +157,7 @@ $ audit_html_snippet('<img src="chart.png">')
 
 ## What automation cannot see
 
-This matters more than the feature list. In the benchmark behind this server, axe-core 4.14.0 flagged 39 of 64 deliberately defective documents. The other 25 needed scripted checks or a human. Across the full standard, 66 of 87 criteria have no automated rule at all.
+This matters more than the feature list. In the benchmark behind this server, axe-core 4.14.0 flagged 39 of 64 deliberately defective documents. The other 25 needed scripted checks or a human. Across the full standard, 29 of 87 criteria have a mapped rule and 58 have none, and at Level AA, the level the law actually targets, only 7 of 24 criteria have a rule.
 
 So the server reports `conformance_claim: false` on every audit. A clean result means no static defect was found, not that the page conforms. Contrast, focus visibility, keyboard traps, reading order, captions accuracy, and error recovery all need a rendered page or a person. If you need a full-domain audit with those checks, that is what [vComplianceScanner](https://veduis.com/products/vcompliance-scanner/) does.
 
@@ -165,6 +165,7 @@ So the server reports `conformance_claim: false` on every audit. A clean result 
 
 | Dataset | DOI |
 | --- | --- |
+| Preprint: what automated testing actually detects | [10.5281/zenodo.23829968](https://doi.org/10.5281/zenodo.23829968) |
 | 64 browser-verified fail/pass pairs, axe-core 4.14.0 | [10.5281/zenodo.23781867](https://doi.org/10.5281/zenodo.23781867) |
 | 87 WCAG 2.2 success criteria with rule mapping | [10.5281/zenodo.23781861](https://doi.org/10.5281/zenodo.23781861) |
 | 21 sourced ADA / Section 504 / EAA dates | [10.5281/zenodo.23781873](https://doi.org/10.5281/zenodo.23781873) |
